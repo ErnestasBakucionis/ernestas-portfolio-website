@@ -1,8 +1,9 @@
+import MessageDisplay from "../components/MessageDisplay";
 
 export default function Home() {
   return (
-  <h1>
-    Hello World
-  </h1>
+    <MessageDisplay
+      text={"Hey! I am Ernestas! What would you like to know about me?"}
+    />
   );
 }
